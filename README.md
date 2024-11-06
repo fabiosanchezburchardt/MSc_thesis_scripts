@@ -2,13 +2,13 @@
 
 Dieses repository beinhaltet alle Python-Skripte, welche für die Durchführung der Masterarbeit mit dem Titel "Untersuchung von Trockenstress und Waldbränden anhand von Sentinel-2 Daten unter Berücksichtigung verschiedener spektraler Indizes im Nationalpark Pollino (Italien) im Sommer 2017" verwendet wurden. Der Ordner "Skripte_2017" umfasst alle Skripte für den Untersuchungszeitraum 2017, im Ordner "Skripte_Referenzjahr_2018" liegen alle Skripte für das Referenzjahr 2018.
 
-#### Conda Version:
+#### Conda Version
 23.11.0
 
-#### Python Version:
+#### Python Version
 3.10.13
 
-#### Verwendete Python Pakete und Version:
+#### Verwendete Python Pakete und Versionen
 - gdal (3.9.0)
 - geopandas (0.9.0)
 - glob (3.10.13)
@@ -18,7 +18,7 @@ Dieses repository beinhaltet alle Python-Skripte, welche für die Durchführung 
 - spyndex (0.6.0)
 - xarray (2024.3.0)
 
-#### Reihenfolge der Skripte:
+#### Reihenfolge der Skripte
 
 ##### Skripte zur Vorbereitung der Trockenstressuntersuchung im gesamten UG 2017 (S2_2017_A)
 - S2_2017_A1_ts_preprocessing.py
@@ -38,7 +38,7 @@ Dieses repository beinhaltet alle Python-Skripte, welche für die Durchführung 
 - S2_2017_B7_ts_TUG1+2_ohne_SCL.py
 - S2_2017_B8_ts_TUG1+2_ohne_SCL_corine_clip.py
 
-Skripte zu den pixelbasierten Berechnungen für die Trockenstressuntersuchung 2017 (S2_2017_C)
+##### Skripte zu den pixelbasierten Berechnungen für die Trockenstressuntersuchung 2017 (S2_2017_C)
 - S2_2017_C1_ts_indices_ranges.py
 - S2_2017_C2_ts_NMDI_ranges.py
 - S2_2017_C3_ts_pixel_TUG1.py
@@ -46,7 +46,7 @@ Skripte zu den pixelbasierten Berechnungen für die Trockenstressuntersuchung 20
 - S2_2017_C5_ts_pixel_TUG3.py
 - S2_2017_C6_ts_pixel_TUG4.py
 
-Skripte zur Vorbereitung der Waldbranduntersuchung 2017 (S2_2017_D)
+##### Skripte zur Vorbereitung der Waldbranduntersuchung 2017 (S2_2017_D)
 - S2_2017_D1_ba_preprocessing.py
 - S2_2017_D2_ba_resampling.py
 - S2_2017_D3_ba_delete_redundant_files.py
@@ -56,18 +56,18 @@ Skripte zur Vorbereitung der Waldbranduntersuchung 2017 (S2_2017_D)
 - S2_2017_D7_ba_differenced_indices.py
 - S2_2017_D8_ba_corine_clip.py
 
-Skripte zu den pixelbasierten Berechnungen für die Waldbranduntersuchung 2017 (S2_2017_E)
+##### Skripte zu den pixelbasierten Berechnungen für die Waldbranduntersuchung 2017 (S2_2017_E)
 - S2_2017_E1_ba_pixel_NBRplus+BAIS2.py
 - S2_2017_E2_ba_pixel_NBRplus_EFFIS+intersect.py
 - S2_2017_E3_ba_pixel_NBRplus_final_EFFIS+intersect.py
 
-Skript zur Darstellung aktiver Brände 2017 (S2_2017_F)
+##### Skript zur Darstellung aktiver Brände 2017 (S2_2017_F)
 - S2_2017_F1_fire_live_stack.py
 
-Skript zur Vorverarbeitung der ERA5-Daten 2017 (S2_2017_G)
+##### Skript zur Vorverarbeitung der ERA5-Daten 2017 (S2_2017_G)
 - S2_2017_G1_ERA5_nc_to_csv.py
 
-Skripte zur Vorbereitung der Trockenstressuntersuchung in den TUGen 2018 (S2_2018_B)
+##### Skripte zur Vorbereitung der Trockenstressuntersuchung in den TUGen 2018 (S2_2018_B)
 - S2_2018_B1_ts_TUGe_preprocessing.py
 - S2_2018_B2_ts_TUGe_resampling.py
 - S2_2018_B3_ts_TUGe_delete_redundant_files.py
@@ -75,11 +75,11 @@ Skripte zur Vorbereitung der Trockenstressuntersuchung in den TUGen 2018 (S2_201
 - S2_2018_B5_ts_TUGe_indices.py
 - S2_2018_B6_ts_corine_clip.py
 
-Skripte zu den pixelbasierten Berechnungen für die Trockenstressuntersuchung 2018 (S2_2018_C)
+##### Skripte zu den pixelbasierten Berechnungen für die Trockenstressuntersuchung 2018 (S2_2018_C)
 - S2_2018_C1_ts_indices_ranges.py
 - S2_2018_C2_ts_NMDI_ranges.py
 
-Skripte zur Vorbereitung der Waldbranduntersuchung 2018 (S2_2018_D)
+##### Skripte zur Vorbereitung der Waldbranduntersuchung 2018 (S2_2018_D)
 - S2_2018_D1_ba_preprocessing.py
 - S2_2018_D2_ba_resampling.py
 - S2_2018_D3_ba_delete_redundant_files.py
@@ -89,6 +89,6 @@ Skripte zur Vorbereitung der Waldbranduntersuchung 2018 (S2_2018_D)
 - S2_2018_D7_ba_differenced_indices.py
 - S2_2018_D8_ba_corine_clip.py
 
-Skript zur Vorverarbeitung der ERA5-Daten 2018 (S2_2018_G)
+##### Skript zur Vorverarbeitung der ERA5-Daten 2018 (S2_2018_G)
 - S2_2018_G1_ERA5_nc_to_csv.py
 
