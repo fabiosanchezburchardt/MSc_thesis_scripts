@@ -6,16 +6,15 @@ Dieses repository beinhaltet alle Python-Skripte, welche für die Durchführung 
 3.10.13
 
 #### Verwendete Python Pakete:
-gdal
-geopandas
-glob
-numpy
-os
-rasterio
-spyndex
-xarray
+- gdal
+- geopandas
+- glob
+- numpy
+- os
+- rasterio
+- spyndex
+- xarray
 
 #### Reihenfolge der Skripte:
-
 
 
