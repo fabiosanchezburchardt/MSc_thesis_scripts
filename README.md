@@ -2,7 +2,7 @@
 
 Dieses repository beinhaltet alle Python-Skripte, welche für die Durchführung der Masterarbeit mit dem Titel "Untersuchung von Trockenstress und Waldbränden anhand von Sentinel-2 Daten unter Berücksichtigung verschiedener spektraler Indizes im Nationalpark Pollino (Italien) im Sommer 2017" verwendet wurden. Der Ordner "Skripte_2017" umfasst alle Skripte für den Untersuchungszeitraum 2017, im Ordner "Skripte_Referenzjahr_2018" liegen alle Skripte für das Referenzjahr 2018.
 
-#### conda Version:
+#### Conda Version:
 23.11.0
 
 #### Python Version:
@@ -31,12 +31,12 @@ Skripte zur Vorbereitung der Trockenstressuntersuchung im gesamten UG 2017 (S2_2
 Skripte zur Vorbereitung der Trockenstressuntersuchung in den TUGen 2017 (S2_2017_B)
 7. S2_2017_B1_ts_TUGe_preprocessing.py
 8. S2_2017_B2_ts_TUGe_resampling.py
-S2_2017_B3_ts_TUGe_delete_redundant_files.py
-S2_2017_B4_ts_TUGe_SCL.py
-S2_2017_B5_ts_TUGe_indices.py
-S2_2017_B6_ts_TUGe_corine_clip.py
-S2_2017_B7_ts_TUG1+2_ohne_SCL.py
-S2_2017_B8_ts_TUG1+2_ohne_SCL_corine_clip.py
+9. S2_2017_B3_ts_TUGe_delete_redundant_files.py
+10. S2_2017_B4_ts_TUGe_SCL.py
+11. S2_2017_B5_ts_TUGe_indices.py
+12. S2_2017_B6_ts_TUGe_corine_clip.py
+13. S2_2017_B7_ts_TUG1+2_ohne_SCL.py
+14. S2_2017_B8_ts_TUG1+2_ohne_SCL_corine_clip.py
 
 Skripte zu den pixelbasierten Berechnungen für die Trockenstressuntersuchung 2017 (S2_2017_C)
 S2_2017_C1_ts_indices_ranges.py
